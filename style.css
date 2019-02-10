@@ -1,0 +1,256 @@
+div.phpdebugbar,
+div.phpdebugbar-openhandler {
+  background: #263238 !important;
+  color: #c3cee3 !important;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) !important;
+}
+div.phpdebugbar-closed, 
+div.phpdebugbar-minimized {
+  border-top-color: #263238 !important;
+}
+div.phpdebugbar-resize-handle {
+  border-bottom-color: #263238 !important;
+}
+a.phpdebugbar-restore-btn {
+  border-right-color: #263238 !important;
+}
+div.phpdebugbar-header, 
+a.phpdebugbar-restore-btn, 
+div.phpdebugbar-openhandler .phpdebugbar-openhandler-header {
+  background-color : #263238 !important;
+  /* background: #263238 url(data:image/png;base64,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) no-repeat 5px 3px !important; */
+}
+div.phpdebugbar-header > div > * {
+  color: #536d79 !important;
+}
+a.phpdebugbar-tab:hover, 
+span.phpdebugbar-indicator:hover, 
+a.phpdebugbar-indicator:hover, 
+a.phpdebugbar-close-btn:hover, 
+a.phpdebugbar-open-btn:hover {
+  background-color: initial !important;
+  box-shadow: inset 0px -2px 0 0px #7fcac3 !important;
+}
+a.phpdebugbar-tab.phpdebugbar-active {
+  background: initial !important;
+  color: #fefefe !important;
+  box-shadow: inset 0px -2px 0 0px #7fcac3 !important;
+}
+a.phpdebugbar-tab span.phpdebugbar-badge {
+  padding: 0px 6px;
+  font-size: 11px !important;
+  background: #36474e!important;
+  color: #82b1ff!important;
+}
+a.phpdebugbar-tab.phpdebugbar-active span.phpdebugbar-badge {
+  background: #36474e!important;
+  color: #82b1ff!important;
+}
+div.phpdebugbar .phpdebugbar-header select {
+  background: #263238;
+}
+a.phpdebugbar-minimize-btn {
+  background:url('data:image/svg+xml,%3Csvg version="1.1" id="chevron-down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="474.2 321.3 971.4 623.7" enable-background="new 474.2 321.3 971.4 623.7" xml:space="preserve"%3E%3Cpath fill="%23EDFEFE" d="M1434.3,487L987.1,933.5c-7.6,7.6-16.7,11.5-27.1,11.5s-19.5-3.8-27.1-11.5L485.7,487 c-7.6-7.6-11.5-16.8-11.5-27.4s3.8-19.8,11.5-27.4l100-99.4c7.6-7.6,16.7-11.5,27.1-11.5c10.4,0,19.5,3.8,27.1,11.5l320,320l320-320 c7.6-7.6,16.7-11.5,27.1-11.5s19.5,3.8,27.1,11.5l100,99.4c7.6,7.6,11.5,16.8,11.5,27.4C1445.8,470.2,1441.9,479.3,1434.3,487z"/%3E%3C/svg%3E') no-repeat 6px 6px / 14px 14px !important;
+}
+
+a.phpdebugbar-maximize-btn {
+  background:url('data:image/svg+xml,%3Csvg version="1.1" id="chevron-up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="474.4 289.3 971.6 623.8" enable-background="new 474.4 289.3 971.6 623.8" xml:space="preserve"%3E%3Cpath fill="%23EDFEFE" d="M1434.3,802.2l-100,99.4c-7.6,7.6-16.7,11.5-27.1,11.5s-19.5-3.8-27.1-11.5l-320-320l-320,320 c-7.6,7.6-16.7,11.5-27.1,11.5c-10.4,0-19.5-3.8-27.1-11.5l-100-99.4c-7.6-7.6-11.5-16.8-11.5-27.4s3.8-19.8,11.5-27.4l447.2-446.6 c7.6-7.6,16.7-11.5,27.1-11.5s19.5,3.8,27.1,11.5l447.2,446.6c7.6,7.6,11.5,16.8,11.5,27.4S1441.9,794.5,1434.3,802.2z"/%3E%3C/svg%3E') no-repeat 6px 6px / 14px 14px !important;
+}
+
+a.phpdebugbar-close-btn {
+  background: url('data:image/svg+xml,%3Csvg version="1.1" id="close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="601.9 220.5 716.2 716.1" enable-background="new 601.9 220.5 716.2 716.1" xml:space="preserve"%3E%3Cpath fill="%23EDFEFE" d="M1318,796.7c0,16.1-5.6,29.7-16.9,41l-82,82c-11.3,11.2-24.9,16.9-41,16.9s-29.7-5.6-41-16.9L960,742.5 L782.8,919.7c-11.3,11.2-24.9,16.9-41,16.9s-29.7-5.6-41-16.9l-82-82c-11.2-11.3-16.9-24.9-16.9-41s5.6-29.7,16.9-41L796,578.5 L618.9,401.4c-11.2-11.3-16.9-24.9-16.9-41s5.6-29.7,16.9-41l82-82c11.3-11.3,24.9-16.9,41-16.9s29.7,5.6,41,16.9L960,414.6 l177.2-177.2c11.3-11.3,24.9-16.9,41-16.9s29.7,5.6,41,16.9l82,82c11.3,11.3,16.9,24.9,16.9,41s-5.6,29.7-16.9,41L1124,578.6 l177.2,177.2C1312.4,767,1318,780.7,1318,796.7z"/%3E%3C/svg%3E') no-repeat 9px 6px / 11px 14px !important;
+}
+
+a.phpdebugbar-open-btn {
+  background: url('data:image/svg+xml,%3Csvg version="1.1" id="folder-open" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="381.4 77.1 1132.5 848.7" enable-background="new 381.4 77.1 1132.5 848.7" xml:space="preserve"%3E%3Cpath fill="%23EDFEFE" d="M1513.9,573.8c0,12.5-6.2,25.7-18.7,39.8l-202.5,238.7c-17.3,20.5-41.5,37.9-72.6,52.1 c-31.1,14.3-60,21.4-86.5,21.4H477.9c-13.7,0-25.8-2.6-36.5-7.8c-10.6-5.2-16-13.9-16-25.9c0-12.5,6.2-25.7,18.7-39.8l202.5-238.7 c17.3-20.5,41.5-37.9,72.6-52.1c31.1-14.3,60-21.4,86.5-21.4h655.7c13.7,0,25.8,2.6,36.5,7.8 C1508.5,553.1,1513.9,561.7,1513.9,573.8z M1307.1,366.4v96.4H805.7c-37.8,0-77.3,9.5-118.7,28.6s-74.3,43.1-98.8,72L385,802.2 l-3,3.6c0-1.6-0.1-4.1-0.3-7.5c-0.2-3.4-0.3-5.9-0.3-7.5V212.1c0-37,13.3-68.7,39.8-95.2s58.3-39.8,95.2-39.8h192.9 c37,0,68.7,13.3,95.2,39.8s39.8,58.3,39.8,95.2v19.3h327.9c37,0,68.7,13.3,95.2,39.8S1307.1,329.5,1307.1,366.4z"/%3E%3C/svg%3E') no-repeat 8px 6px / 14px 14px !important;
+}
+
+span.phpdebugbar-indicator, a.phpdebugbar-indicator, a.phpdebugbar-close-btn {
+  border-right: 1px solid #324149 !important;
+}
+ul.phpdebugbar-widgets-list li.phpdebugbar-widgets-list-item:nth-child(even),
+ul.phpdebugbar-widgets-timeline li:nth-child(even) {
+  background-color: #29363d !important;
+}
+ul.phpdebugbar-widgets-list li.phpdebugbar-widgets-list-item:hover,
+ul.phpdebugbar-widgets-timeline li:hover {
+  background: #212b31 !important;
+}
+div.phpdebugbar-widgets-messages div.phpdebugbar-widgets-toolbar {
+  background: #263238 !important;
+}
+div.phpdebugbar input[type='text'], div.phpdebugbar input[type='password'] {
+  background: #263238 !important;
+  color: #fff !important;
+}
+ul.phpdebugbar-widgets-timeline li span.phpdebugbar-widgets-label, 
+ul.phpdebugbar-widgets-timeline li span.phpdebugbar-widgets-collector {
+  color: #c3cee3 !important;
+}
+ul.phpdebugbar-widgets-timeline li span.phpdebugbar-widgets-value {
+  background-color: #673ab7 !important;
+}
+ul.phpdebugbar-widgets-timeline .phpdebugbar-widgets-measure {
+  height: 35px !important;
+  line-height: 35px !important;
+}
+ul.phpdebugbar-widgets-timeline li span.phpdebugbar-widgets-value {
+  top: 10px !important;
+  border-radius: 3px !important;
+  min-width: 2px !important;
+}
+.phpdebugbar dt {
+  color: #698896;
+}
+dl.phpdebugbar-widgets-kvlist dd,
+dl.phpdebugbar-widgets-kvlist dt {
+  border-top: 1px solid #2d3c43 !important;
+}
+div.phpdebugbar .hljs {
+  color: #c3cee3 !important;
+  background: #212b31 !important;
+}
+div.phpdebugbar code, div.phpdebugbar pre,
+div.phpdebugbar .hljs-keyword, 
+div.phpdebugbar .css .rule .hljs-keyword, 
+div.phpdebugbar .hljs-winutils, 
+div.phpdebugbar .javascript .hljs-title, 
+div.phpdebugbar .nginx .hljs-title, 
+div.phpdebugbar .hljs-subst, 
+div.phpdebugbar .hljs-request, 
+div.phpdebugbar .hljs-status {
+  color: #c3cee3 !important;
+}
+div.phpdebugbar-widgets-sqlqueries .phpdebugbar-widgets-status,
+div.phpdebugbar-widgets-templates div.phpdebugbar-widgets-status {
+  border-bottom: none !important;
+  color: #6dc2b8 !important;
+  background: #212b31 !important;
+}
+div.phpdebugbar-widgets-sqlqueries li.phpdebugbar-widgets-list-item.phpdebugbar-widgets-sql-duplicate {
+  background-color: #3d3829 !important;
+}
+ul.phpdebugbar-widgets-list li.phpdebugbar-widgets-list-item .phpdebugbar-widgets-params {
+  background-color: #212b31 !important;
+}
+div.phpdebugbar-widgets-sqlqueries table.phpdebugbar-widgets-params {
+  border: 1px solid #2d3b43 !important;
+}
+div.phpdebugbar-widgets-sqlqueries table.phpdebugbar-widgets-params td,
+div.phpdebugbar-widgets-templates table.phpdebugbar-widgets-params td,
+div.phpdebugbar-widgets-templates table.phpdebugbar-widgets-params {
+  border: 1px solid #2d3b43 !important;
+}
+div.phpdebugbar-widgets-templates span.phpdebugbar-widgets-render-time, 
+div.phpdebugbar-widgets-templates span.phpdebugbar-widgets-memory, 
+div.phpdebugbar-widgets-templates span.phpdebugbar-widgets-param-count, 
+div.phpdebugbar-widgets-templates span.phpdebugbar-widgets-type,
+div.phpdebugbar-widgets-sqlqueries span.phpdebugbar-widgets-database, 
+div.phpdebugbar-widgets-sqlqueries span.phpdebugbar-widgets-duration, 
+div.phpdebugbar-widgets-sqlqueries span.phpdebugbar-widgets-memory, 
+div.phpdebugbar-widgets-sqlqueries span.phpdebugbar-widgets-row-count, 
+div.phpdebugbar-widgets-sqlqueries span.phpdebugbar-widgets-copy-clipboard, 
+div.phpdebugbar-widgets-sqlqueries span.phpdebugbar-widgets-stmt-id {
+  color: #546e7a !important;
+}
+div.phpdebugbar .hljs-string, 
+div.phpdebugbar .hljs-tag .hljs-value, 
+div.phpdebugbar .hljs-phpdoc, 
+div.phpdebugbar .tex .hljs-formula {
+  color: #c3e887 !important;
+}
+div.phpdebugbar .hljs-number, 
+div.phpdebugbar .hljs-hexcolor, 
+div.phpdebugbar .ruby .hljs-constant {
+  color: #ff5370 !important;
+}
+div.phpdebugbar .hljs-attribute, 
+div.phpdebugbar .hljs-variable, 
+div.phpdebugbar .lisp .hljs-body {
+  color: #ffcb6b !important;
+}
+div.phpdebugbar-openhandler {
+  background: #263238 !important;
+  border: none !important;
+  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.3) !important;
+}
+div.phpdebugbar-openhandler .phpdebugbar-openhandler-header {
+  color: #536d79!important;
+}
+div.phpdebugbar-openhandler .phpdebugbar-openhandler-header>a {
+  color: #536d79!important;
+}
+div.phpdebugbar-openhandler table td, div.phpdebugbar-openhandler table th {
+  color: #c3cee3 !important;
+}
+div.phpdebugbar-openhandler a {
+  color: #6dc2b8 !important;
+}
+div.phpdebugbar-openhandler table td {
+  padding: 12px 3px !important;
+  border-bottom: 1px solid #2d3c43 !important;
+}
+div.phpdebugbar-openhandler table {
+  margin: 15px !important;
+  width: calc(100% - 30px) !important;
+}
+div.phpdebugbar-openhandler input, 
+div.phpdebugbar-openhandler select {
+  background: #212b31;
+  color: #c3cee3!important;
+  border: none!important;
+  margin: 7px 0px 7px 7px;
+  padding: 3px 10px;
+}
+div.phpdebugbar-openhandler button {
+  background: #6dc2b8!important;
+  border: none !important;
+  color: #efefef;
+  margin-top: 10px;
+  padding: 3px 15px;
+  cursor: pointer;
+}
+div.phpdebugbar-openhandler button:hover {
+  background: #4ab0a4 !important;
+}
+
+.phpdebugbar pre.sf-dump .sf-dump-note {
+  color: #82b1ff !important;
+}
+.phpdebugbar pre.sf-dump .sf-dump-key {
+  color: #ffcb6b !important;
+}
+.phpdebugbar pre.sf-dump .sf-dump-str {
+  font-weight: bold;
+  color: #c3e887 !important;
+}
+.phpdebugbar pre.sf-dump .sf-dump-num {
+  font-weight: bold;
+  color: #ff5370 !important;
+}
+div.phpdebugbar .hljs-class .hljs-title, 
+div.phpdebugbar .haskell .hljs-type, 
+div.phpdebugbar .vhdl .hljs-literal, 
+div.phpdebugbar .tex .hljs-command {
+  color: #ffcb6b !important;
+}
+div.phpdebugbar .hljs-preprocessor, 
+div.phpdebugbar .hljs-pragma, 
+div.phpdebugbar .hljs-pi, 
+div.phpdebugbar .hljs-doctype, 
+div.phpdebugbar .hljs-shebang, 
+div.phpdebugbar .hljs-cdata {
+  color: #82b1ff !important;
+}
+div.phpdebugbar-widgets-messages li.phpdebugbar-widgets-list-item span.phpdebugbar-widgets-value.phpdebugbar-widgets-error {
+  color: #ff5370 !important;
+}
+div.phpdebugbar-widgets-messages li.phpdebugbar-widgets-list-item span.phpdebugbar-widgets-value.phpdebugbar-widgets-error:before {
+  color: #ff5370 !important;
+}
+div.phpdebugbar-widgets-exceptions li.phpdebugbar-widgets-list-item span.phpdebugbar-widgets-message {
+  color: #ff5370 !important;
+}
+div.phpdebugbar-widgets-exceptions li.phpdebugbar-widgets-list-item span.phpdebugbar-widgets-filename {
+  color: #5f7985 !important;
+}
